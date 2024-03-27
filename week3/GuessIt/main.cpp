@@ -81,7 +81,6 @@ int guessInput()
             number = computeNumber(e.button.x, e.button.y);
         }
     }
-
     return number;
 }
 
