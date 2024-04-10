@@ -15,13 +15,13 @@ int main() {
     for(int i=1;i<=n;i++)
     {
         cin>>A[i];
-        mp[B[i]]++;
+        mp[A[i]]++;
     }
     for(int i=1;i<=n+1;i++)
     {
         cin>>B[i];
         if(mp[B[i]]==0) cout<<B[i];
-        else mp[b[i]]--;
+        else mp[B[i]]--;
 
     }
     return 0;
